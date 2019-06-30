@@ -40,7 +40,7 @@ def writeTableDoc(table):
 
     text += "<table><thead><tr class=\"header\">"
 
-    text += "<th align=\"left\">Column</th><th align=\"left\">Data type</th><th align=\"left\">Attribute</th><th align=\"left\">Defualt</th><th align=\"left\">Description</th></tr></thead><tbody>\n\n"
+    text += "<th align=\"left\">Column</th><th align=\"left\">Data type</th><th align=\"left\">Attribute</th><th align=\"left\">Default</th><th align=\"left\">Description</th></tr></thead><tbody>\n\n"
 
     for column in table.columns:
         text += writeColumnDoc(column, table)
